@@ -45,3 +45,5 @@ VALUES
 ('Laptop Stand', 39.99, 120, 'admin', GETDATE(), NULL, NULL, 0),
 ('Webcam 1080p', 59.95, 80, 'admin', GETDATE(), NULL, NULL, 0);
 ```
+
+dotnet ef dbcontext scaffold "Server=.;Database=DAT_Dev;User ID=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -o CLAppDbContextModels -c CLAppDbContext
